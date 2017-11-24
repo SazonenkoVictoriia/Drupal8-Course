@@ -1,0 +1,22 @@
+uuid: 5afa727f-2680-45e6-9463-64bafc7e3f8d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - subthemeomega
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: subthemeomega_content
+theme: subthemeomega
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

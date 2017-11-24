@@ -1,0 +1,24 @@
+uuid: 06a85d94-59f6-4ec1-ae12-610706443dd0
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.view333
+  module:
+    - views
+  theme:
+    - omega_simple_starterkit
+id: omega_simple_starterkit_views_block__view333_block_1_2
+theme: omega_simple_starterkit
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:view333-block_1'
+settings:
+  id: 'views_block:view333-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

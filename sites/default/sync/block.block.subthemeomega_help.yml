@@ -1,0 +1,22 @@
+uuid: 1a11d649-c380-4ab4-b877-2086dbd4735a
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - subthemeomega
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: subthemeomega_help
+theme: subthemeomega
+region: content
+weight: -8
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

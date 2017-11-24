@@ -1,0 +1,14 @@
+uuid: 7c7f1e5d-689e-42ce-a4bc-b9e1d401170a
+name: 'My First Site on Drupal'
+mail: sazonenkovictoriia@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo

@@ -1,0 +1,32 @@
+uuid: 25d25998-cabf-4001-a10a-48bc7d598812
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.view_s
+  module:
+    - node
+    - views
+  theme:
+    - omega_simple_starterkit
+id: omega_simple_starterkit_views_block__view_s_block_1
+theme: omega_simple_starterkit
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:view_s-block_1'
+settings:
+  id: 'views_block:view_s-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

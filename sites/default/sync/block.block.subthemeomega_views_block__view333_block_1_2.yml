@@ -1,0 +1,24 @@
+uuid: 7815cc08-380d-4d6f-8a50-c9cf2e9e5945
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.view333
+  module:
+    - views
+  theme:
+    - subthemeomega
+id: subthemeomega_views_block__view333_block_1_2
+theme: subthemeomega
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:view333-block_1'
+settings:
+  id: 'views_block:view333-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

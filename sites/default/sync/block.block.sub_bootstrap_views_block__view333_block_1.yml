@@ -1,0 +1,32 @@
+uuid: 9a374996-db9f-4018-bc83-0743809fe01f
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.view333
+  module:
+    - node
+    - views
+  theme:
+    - sub_bootstrap
+id: sub_bootstrap_views_block__view333_block_1
+theme: sub_bootstrap
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:view333-block_1'
+settings:
+  id: 'views_block:view333-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      blog: blog
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

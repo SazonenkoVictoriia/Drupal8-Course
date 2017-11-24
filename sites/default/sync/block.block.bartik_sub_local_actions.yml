@@ -1,0 +1,20 @@
+uuid: 47492819-3332-4465-989a-4f9cebc684ba
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bartik_sub
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: bartik_sub_local_actions
+theme: bartik_sub
+region: content
+weight: -8
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

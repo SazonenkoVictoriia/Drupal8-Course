@@ -1,0 +1,22 @@
+uuid: 6bed49a3-73d0-4939-8eca-7bafdcfccdb6
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - subthemeomega
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: subthemeomega_powered
+theme: subthemeomega
+region: header
+weight: -8
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

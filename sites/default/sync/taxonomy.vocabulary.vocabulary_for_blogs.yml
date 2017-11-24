@@ -1,0 +1,9 @@
+uuid: 489e2da9-76a9-4d87-b76a-4bd1f373bb16
+langcode: en
+status: true
+dependencies: {  }
+name: 'Vocabulary for Blog'
+vid: vocabulary_for_blogs
+description: ''
+hierarchy: 0
+weight: 0
